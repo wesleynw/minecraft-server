@@ -1,0 +1,79 @@
+[19:57:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:57:57] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:57:58] [Worker-Main-4/INFO]: Loaded 7 recipes
+[19:58:01] [main/INFO]: [STDERR]: Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+[19:58:01] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:58:01] [Server thread/INFO]: Loading properties
+[19:58:01] [Server thread/INFO]: This server is running Paper version git-Paper-584 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:58:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:58:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:58:01] [Server thread/INFO]: Debug logging is disabled
+[19:58:01] [Server thread/INFO]: Default game type: SURVIVAL
+[19:58:01] [Server thread/INFO]: Generating keypair
+[19:58:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:58:01] [Server thread/INFO]: Using default channel type
+[19:58:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:58:01] [Server thread/INFO]: Preparing level "world"
+[19:58:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:58:02] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[19:58:02] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:02] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:03] [Server thread/INFO]: Preparing spawn area: 6%
+[19:58:03] [Server thread/INFO]: Preparing spawn area: 7%
+[19:58:03] [Server thread/INFO]: Time elapsed: 1580 ms
+[19:58:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:58:04] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[19:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:04] [Server thread/INFO]: Preparing spawn area: 2%
+[19:58:04] [Server thread/INFO]: Time elapsed: 654 ms
+[19:58:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:58:04] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[19:58:04] [Server thread/INFO]: Preparing spawn area: 0%
+[19:58:05] [Server thread/INFO]: Preparing spawn area: 17%
+[19:58:05] [Server thread/INFO]: Time elapsed: 573 ms
+[19:58:05] [Server thread/INFO]: Running delayed init tasks
+[19:58:05] [Server thread/INFO]: Done (3.784s)! For help, type "help"
+[19:58:05] [Server thread/INFO]: Timings Reset
+[20:01:02] [User Authenticator #1/INFO]: UUID of player yelsew69 is 7beff288-6f94-4492-ab2b-6121ab56eeab
+[20:01:02] [Server thread/INFO]: yelsew69 joined the game
+[20:01:02] [Server thread/INFO]: yelsew69[/127.0.0.1:61514] logged in with entity id 247 at ([world]394.3644735681115, 65.0, 90.55655556672843)
+[20:04:12] [Server thread/INFO]: yelsew69 lost connection: Disconnected
+[20:04:12] [Server thread/INFO]: yelsew69 left the game
+[20:04:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[20:04:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[20:04:28] [Server thread/INFO]: Stopping server
+[20:04:28] [Server thread/INFO]: Saving players
+[20:04:28] [Server thread/INFO]: Saving worlds
+[20:04:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:04:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:04:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:04:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:04:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:04:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:04:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:04:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:04:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:04:30] [Server thread/INFO]: Flushing Chunk IO
+[20:04:30] [Server thread/INFO]: Closing Thread Pool
+[20:04:30] [Server thread/INFO]: Closing Server
+[20:04:48] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.16.5.jar:git-Paper-584]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.16.5.jar:git-Paper-584]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.16.5.jar:git-Paper-584]
+	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:106) ~[patched_1.16.5.jar:git-Paper-584]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[patched_1.16.5.jar:git-Paper-584]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133) ~[patched_1.16.5.jar:git-Paper-584]
+	... 9 more
